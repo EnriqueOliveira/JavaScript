@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    font: 20px arial;
+    background-color: rgb(83, 155, 238);
+    color: black;
+    text-align: center; 
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form {
+    color: black;
+    text-align: left;
+    padding: 10px;
+    padding-top: 15px;
+    
+}
+
+footer {
+    padding: 10px;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro passos com DOM</title>
+    <style>
+        body {
+            background-color: rgba(68, 68, 192, 0.822);
+            color: white;
+            font: normal 15pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando 05 Elementos De Acesso</h1>
+    <p>Usando o <strong>1º Elemento</strong></p>
+    <p>O evento dom JS</p>
+    <div id="msg">Clique em mim...</div>
+    <br>
+
+    <script>
+        var corpo = window.document.body
+        var p0 = window.document.getElementsByTagName('p')[0]
+        window.document.write('Está escrito assim no primeiro parágrafo :'  +  p0.innerHTML)
+        
+    </script>
+
+    
+</body>
+</html>

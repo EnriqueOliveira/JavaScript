@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(58, 108, 247, 0.856);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    height: 300px;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+footer {
+    padding-top: 15px;
+}
